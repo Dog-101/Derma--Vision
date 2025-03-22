@@ -1,0 +1,40 @@
+.team-member {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    text-align: center;
+}
+  
+.team-headshot {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+  
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin: 20px auto;
+    max-width: 800px;
+    justify-content: center;
+}
+  
+.member-info {
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.member-name {
+    font-weight: bold;
+}
+  
+.role {
+    font-style: italic;
+    margin-top: 5px;
+}
